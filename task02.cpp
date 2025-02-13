@@ -48,7 +48,7 @@
 */
 
 string task02(int a, int b, int n) {
-	if (a < 0 || b < 0 || n <= 0) {
+	if (a <= 0 || b <= 0 || n <= 0) {
 		return "error";
 	}
 	
